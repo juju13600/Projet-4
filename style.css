@@ -366,7 +366,9 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+.breadcrumb{
+    width:50%
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -643,7 +645,9 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-
+li{
+    font-size: 16px;
+}
 h1,
 h2,
 h3,
@@ -658,6 +662,31 @@ a {
     font-weight: 400;
     color: #000000!important;
 }
+.form-group{
+    display: flex;
+}
+label
+{
+    display: flex;
+    margin-top: 10px;
+}
+input, textarea{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.number {
+    display: flex;
+    color: white;
+    background-color: #F3976C;
+    border-radius: 50%;
+    height: 25px;
+    width: 19px;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 4px;
+    margin-right: 4px;
+  }
 
 .container {
     max-width: 1000px;
