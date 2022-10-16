@@ -704,7 +704,7 @@ input, textarea{
 .number {
     display: flex;
     color: white;
-    background-color: #F3976C;
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
     height: 25px;
     width: 19px;
