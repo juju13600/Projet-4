@@ -2012,7 +2012,7 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 .col-lg-1,
@@ -2064,9 +2064,9 @@ pre code {
 .col-xs-8,
 .col-xs-9 {
     position: relative;
-    min-height: 1px;
+    /* min-height: 1px; */
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
 }
 
 .col-xs-1,
@@ -2301,10 +2301,10 @@ pre code {
     .col-sm-7,
     .col-sm-8,
     .col-sm-9 {
-        float: left
+        float: left;
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -2322,7 +2322,7 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%
+        width: 50%;
     }
     .col-sm-5 {
         width: 41.66666667%
