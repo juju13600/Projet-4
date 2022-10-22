@@ -1,10 +1,11 @@
 @font-face {
     font-family: et-line;
-    src: url(…fonts/et-line.woff);
+    src: url(/fonts/et-line.woff) format('woff'),
+         url(/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff');
     font-display: swap;
 }
 body {
-    /* margin: 0; */
+    margin: 0;
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
@@ -172,10 +173,6 @@ a:hover {
     border-color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
-}
-
 .d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
 }
@@ -204,7 +201,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    /* color: rgba(0, 0, 0, .5); */
+    color: rgba(0, 0, 0, .5);
 }
 
 .d-bloc .panel button:hover,
