@@ -8,8 +8,9 @@ body {
 }
 @font-face {
     font-family: et-line;
-    src: url(/fonts/et-line.woff) format('woff');
-    font-display: block;
+    src: url(/fonts/et-line.woff) format('woff'),
+         url(/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff');
+    font-display: swap;
 }
 a,
 button {
