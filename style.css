@@ -4,7 +4,7 @@
     font-display: swap;
 }
 body {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
@@ -204,7 +204,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    /* color: rgba(0, 0, 0, .5); */
 }
 
 .d-bloc .panel button:hover,
